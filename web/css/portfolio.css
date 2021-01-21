@@ -1,0 +1,25 @@
+.interna_portfolio {
+    background: url("../img/bg-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.review {
+    margin-top: 80px;
+}
+
+.review p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.review cite {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    font-style: normal;
+    margin-bottom: 80px;
+}
