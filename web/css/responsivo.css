@@ -115,4 +115,19 @@
         .orcamento_dados ul {
             padding-right: 0px;
         }
+        .review {
+            margin-top: 40px;
+        }
+        .review p {
+            font-size: 14px;
+        }
+        .review cite {
+            font-size: 14px;
+            margin: 0;
+            float: none;
+        }
+        .contato_form {
+            padding-right: 0px;
+            margin-bottom: 40px;
+        }
     }
