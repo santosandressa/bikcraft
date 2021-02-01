@@ -1,6 +1,6 @@
     /* tablet */
     
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
         .qualidade:after {
             right: 66px;
         }
@@ -36,7 +36,7 @@
     }
     /* smartphone */
     
-    @media only screen and (min-device-width: 360px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    @media only screen and (min-width: 360px) and (max-width: 667px) {
         .header {
             position: relative;
             padding-bottom: 0px;
@@ -68,7 +68,7 @@
         .introduction {
             margin-top: 0;
             padding-top: 20px;
-            background-image: url("../img/bg-mobile.jpg") no-repeat center;
+            background: url("../img/bg-mobile.jpg") no-repeat center;
             background-size: cover;
         }
         .introduction_interna {
