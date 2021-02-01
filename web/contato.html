@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contato.css" />
     <link rel="stylesheet" href="./css/responsivo.css" />
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
     <title>Bikecraft - Contato</title>
 </head>
 
@@ -36,12 +39,12 @@
 
     <section class="introduction_interna interna_contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>Tire suas dúvidas com a gente</p>
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Tire suas dúvidas com a gente</p>
         </div>
     </section>
 
-    <section class="container contato">
+    <section class="container contato fadeInDown" data-anime="1200">
 
 
         <form id="form_contato" class="grid-8 contato_form" action="">
@@ -79,7 +82,7 @@
 
     </section>
 
-    <section class="container contato_mapa">
+    <section class="container contato_mapa fadeInDown" data-anime="1200">
         <a href="http://google.com" target="_blank" class="grid-16"><img src="./img/endereco-bikcraft.jpg" alt="Bikecraft Endereço" /></a>
     </section>
 
@@ -136,6 +139,10 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="./js/simple-anime.js "></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

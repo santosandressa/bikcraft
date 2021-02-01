@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./css/produtos.css" />
     <link rel="stylesheet" href="./css/responsivo.css" />
     <title>Bikecraft - Produtos</title>
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 </head>
 
 <body>
@@ -36,23 +39,23 @@
 
     <section class="introduction_interna interna_produtos">
         <div class="container">
-            <h1>Produtos</h1>
-            <p>Conheça todos os nossos produtos</p>
+            <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+            <p data-anime="800 " class="fadeInDown ">Conheça todos os nossos produtos</p>
         </div>
     </section>
 
-    <section class="container produtos_item">
-        <div class="grid-11">
-            <img src="./img/produtos/bikcraft-passeio-1.jpg" alt="Bikecraft Passeio " />
+    <section class="container produtos_item fadeInDown " data-anime="1200 ">
+        <div class="grid-11 ">
+            <img src="./img/produtos/bikcraft-passeio-1.jpg " alt="Bikecraft Passeio " />
             <h2>Passeio</h2>
         </div>
-        <div class="grid-5 produto_icone">
+        <div class="grid-5 produto_icone ">
             <img src="./img/produtos/passeio.svg " alt=" " />
         </div>
-        <div class="grid-8">
-            <img src="./img/produtos/bikcraft-passeio-2.jpg" alt="Brikecraft Passeio" />
+        <div class="grid-8 ">
+            <img src="./img/produtos/bikcraft-passeio-2.jpg " alt="Brikecraft Passeio " />
         </div>
-        <div class="grid-8 produto_info">
+        <div class="grid-8 produto_info ">
             <p>
                 Muito melhor do que passear pela orla a vidros fechados. A Bikcraft Passeio é uma bicicleta que une conforto e praticidade para o seu dia a dia. Você nunca mais vai querer saber de outra.
             </p>
@@ -66,18 +69,18 @@
         </div>
     </section>
 
-    <section class="container produtos_item">
-        <div class="grid-11">
-            <img src="./img/produtos/bikcraft-esporte-1.jpg" alt="Bikecraft Esporte " />
+    <section class="container produtos_item fadeInDown " data-anime="1200 ">
+        <div class="grid-11 ">
+            <img src="./img/produtos/bikcraft-esporte-1.jpg " alt="Bikecraft Esporte " />
             <h2>Esporte</h2>
         </div>
-        <div class="grid-5 produto_icone">
+        <div class="grid-5 produto_icone ">
             <img src="./img/produtos/esporte.svg " alt=" " />
         </div>
-        <div class="grid-8">
-            <img src="./img/produtos/bikcraft-esporte-2.jpg" alt="Brikecraft Esporte" />
+        <div class="grid-8 ">
+            <img src="./img/produtos/bikcraft-esporte-2.jpg " alt="Brikecraft Esporte " />
         </div>
-        <div class="grid-8 produto_info">
+        <div class="grid-8 produto_info ">
             <p>
                 Mais rápida do que Forrest Gump, ninguém vai pegar você. A Bikcraft Esporte é uma bicicleta desenhada para a máxima performance. O seu desempenho supera qualquer uma da categoria.
             </p>
@@ -91,18 +94,18 @@
         </div>
     </section>
 
-    <section class="container produtos_item">
-        <div class="grid-11">
-            <img src="./img/produtos/bikcraft-retro-1.jpg" alt="Bikecraft Retrô " />
+    <section class="container produtos_item fadeInDown " data-anime="1200 ">
+        <div class="grid-11 ">
+            <img src="./img/produtos/bikcraft-retro-1.jpg " alt="Bikecraft Retrô " />
             <h2>Esporte</h2>
         </div>
-        <div class="grid-5 produto_icone">
+        <div class="grid-5 produto_icone ">
             <img src="./img/produtos/retro.svg " alt=" " />
         </div>
-        <div class="grid-8">
-            <img src="./img/produtos/bikcraft-retro-2.jpg" alt="Brikecraft Retrô" />
+        <div class="grid-8 ">
+            <img src="./img/produtos/bikcraft-retro-2.jpg " alt="Brikecraft Retrô " />
         </div>
-        <div class="grid-8 produto_info">
+        <div class="grid-8 produto_info ">
             <p>
                 O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô é uma bicicleta estiloza, feita para você que gosta do clássico, mas que não abre mão do conforto.
             </p>
@@ -116,25 +119,25 @@
         </div>
     </section>
 
-    <section class="orcamento">
-        <div class="container">
-            <h2 class="subtittle">Orçamento</h2>
-            <form id="form_orcamento" class="grid-8 form" action="">
-                <label for="Nome">Nome</label>
-                <input type="text" id="Nome" required />
-                <label for="Email">Email</label>
-                <input type="text" id="Email" required />
-                <label for="Telefone">Telefone</label>
-                <input type="text" id="Telefone" required />
-                <label for="">Especificações</label>
-                <textarea name="" id="Espec" rows="5" required></textarea>
-                <button type="submit" class="btn">Enviar</button>
+    <section class="orcamento ">
+        <div class="container ">
+            <h2 class="subtittle ">Orçamento</h2>
+            <form id="form_orcamento " class="grid-8 form " action=" ">
+                <label for="Nome ">Nome</label>
+                <input type="text " id="Nome " required />
+                <label for="Email ">Email</label>
+                <input type="text " id="Email " required />
+                <label for="Telefone ">Telefone</label>
+                <input type="text " id="Telefone " required />
+                <label for=" ">Especificações</label>
+                <textarea name=" " id="Espec " rows="5 " required></textarea>
+                <button type="submit " class="btn ">Enviar</button>
             </form>
 
-            <div class="orcamento_dados grid-8">
+            <div class="orcamento_dados grid-8 ">
                 <h3>Dados</h3>
-                <span itemprop="telephone">+55 21 9999-9999</span>
-                <span itemprop="email">contato@bikcraft.com </span>
+                <span itemprop="telephone ">+55 21 9999-9999</span>
+                <span itemprop="email ">contato@bikcraft.com </span>
                 <h3>Monte a sua Bikecraft</h3>
                 <p>Escolha as especificações</p>
                 <ul>
@@ -148,8 +151,8 @@
         </div>
     </section>
 
-    <section class="quebra">
-        <blockquote class="quote-externo container">
+    <section class="quebra ">
+        <blockquote class="quote-externo container ">
             <header>
                 <p>
                     “o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”
@@ -160,16 +163,16 @@
     </section>
 
     <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="grid-8 footer_historia">
+        <div class="footer ">
+            <div class="container ">
+                <div class="grid-8 footer_historia ">
                     <h3>Nossa História</h3>
                     <p>
                         O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana cotidiana. interesse por todos os detalhes da vida cotidiana cotidiana.
                     </p>
                 </div>
 
-                <div class="grid-4 footer_contato">
+                <div class="grid-4 footer_contato ">
                     <h3>Contato</h3>
                     <ul>
                         <li>- 21 23232-4343</li>
@@ -178,7 +181,7 @@
                     </ul>
                 </div>
 
-                <div class="grid-4 footer_redes">
+                <div class="grid-4 footer_redes ">
                     <h3>Contato</h3>
                     <ul>
                         <li>
@@ -195,12 +198,15 @@
             </div>
         </div>
 
-        <div class="copy">
-            <div class="container">
-                <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados.</p>
+        <div class="copy ">
+            <div class="container ">
+                <p class="grid-16 ">Bikcraft 2021 - Alguns direitos reservados.</p>
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js "></script>
+    <script src="./js/script.js "></script>
 </body>
 
 </html>
